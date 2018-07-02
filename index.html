@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,300,900" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <h1>Pomodoro</h1>
+
+  <div class="timers">
+
+    <div class="timer work">
+      <h2>Set up your work time:</h2>
+      <div class="time_setter">
+        <button class="arrow up"></button>
+        <div class="time"></div>
+        <button class="arrow down"></button>
+      </div>
+    </div>
+
+    <div class="timer break">
+      <h2>Set up your break time:</h2>
+      <div class="time_setter">
+        <button class="arrow up"></button>
+        <div class="time"></div>
+        <button class="arrow down"></button>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="toggle">Start</button>
+  <div class="time main"></div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
