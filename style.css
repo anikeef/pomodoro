@@ -6,7 +6,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 100;
   text-align: center;
-  background-color: #E7E7E7;
+  background-color: white;
   color: #5C697C
 }
 
@@ -74,11 +74,11 @@ button:hover {
 }
 
 .playing {
-  font-size: 96px;
-  transform: translateY(70%);
+/*  font-size: 96px; */
+  transform: translateY(80%) scale(2);
 }
 
 .breaking {
-  font-size: 96px;
-  transform: translateY(-70%);
+/*  font-size: 96px; */
+  transform: translateY(-140%) scale(2);
 }
